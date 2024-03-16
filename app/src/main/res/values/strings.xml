@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">and102-MovieApp</string>
+    <string name="movie_cover_image">Movie Cover Image</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_exercitationem_amet_ipsa_labore_veniam_aperiam_ipsam_et_aut_omnis_maxime_modi_voluptatibus_magnam_molestiae_sapiente_tempora_repellat_accusantium_necessitatibus_perspiciatis_alias">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet ipsa labore veniam aperiam ipsam et, aut omnis maxime modi voluptatibus magnam molestiae sapiente tempora repellat accusantium necessitatibus perspiciatis alias?</string>
+    <string name="this_is_a_title">This is a title</string>
+</resources>

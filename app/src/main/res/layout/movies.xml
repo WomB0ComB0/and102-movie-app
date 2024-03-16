@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="153dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/movie_cover_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/this_is_a_title"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintStart_toStartOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="228dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="5"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_exercitationem_amet_ipsa_labore_veniam_aperiam_ipsam_et_aut_omnis_maxime_modi_voluptatibus_magnam_molestiae_sapiente_tempora_repellat_accusantium_necessitatibus_perspiciatis_alias"
+        app:layout_constraintStart_toStartOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
